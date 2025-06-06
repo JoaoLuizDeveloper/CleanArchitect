@@ -11,7 +11,6 @@ CleanArchitec.Core: Holds domain entities and interfaces, representing the busin
 CleanArchitec.Infrastructure: Implements data access and external service integrations.
 
 CleanArchitec.sln: Visual Studio solution file.
-github.com
 
 🛠️ Technologies Used
 .NET Core
@@ -38,9 +37,6 @@ Update the connection string in appsettings.json within the CleanArchitec.API pr
 
 Apply migrations and update the database:
 
-bash
-Copiar
-Editar
 dotnet ef database update --project CleanArchitec.Infrastructure --startup-project CleanArchitec.API
 Run the application:
 
@@ -48,9 +44,6 @@ Navigate to the CleanArchitec.API project directory.
 
 Run the application:
 
-bash
-Copiar
-Editar
 dotnet run
 The API will be available at http://localhost:5000.
 
