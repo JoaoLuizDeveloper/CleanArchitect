@@ -25,6 +25,7 @@ RESTful API
 Clone the repository:
 
 git clone https://github.com/JoaoLuizDeveloper/CleanArchitect.git
+<br />
 cd CleanArchitect
 Set up the database:
 
